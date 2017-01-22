@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+   <title>Business Card Reader</title>
+   <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen" />
+  </head>
+  <body background="styles/background.jpg">
+  <body>
+    <div id="content" class="container">
+
+      <div style="height: 10px"> </div>
+
+      <h1 style = "text-align: center">Business Card Reader</h1>
+      <h2>Choose an image File.</h2>
+     	<h2>Press upload picture button.</h2>
+     	<h2>Press Display uploaded cards.</h2>
+     	<h2>Press the OCR result.</h2>
+ 
+   
+       <div class="form" style="position: absolute; top: 550px; text-align: center">
+      <form action="upload" method="post" enctype="multipart/form-data">
+      	<p>File Image:
+  		<input type="file" name="pic">
+  		</p>
+  		<p>
+  		<input type="submit" value="Upload picture">
+  		</p>
+	  </form>
+	  </div>
+	  
+	  <a href='display' style="position: absolute; top: 500px">Display all uploaded cards</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body{
+	font-family: Geogia, Cambria, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #f1f1f1;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+label{
+	font-size: 17px;
+	text-align: center;
+}
+
+div.input-group{
+	max-width: 400px;
+	color: #f1f1f1;
+}
+
+h1{
+	font-family: ChunkFiveRegular, Georgia, serif;
+	font-weight: bold;
+	font-style: normal;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: ChunkFiveRegular, Georgia, serif;
+	font-style: italic;
+	font-size: 18px;
+}
+
+a:hover{
+	color: deeppink;
+}
+
+label{
+	font-family: Geogia, Cambria, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+li{
+	font-size:30px;
+}
+
+h2{
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+h3{
+	top: 200px;
+}
+input{
+	text-align: left;
+}
+
+
+
+
+
